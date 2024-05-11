@@ -1,0 +1,123 @@
+#BagelGC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.projectpg-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 60%;
+}
+
+.caption-div {
+  font-style: italic;
+}
+
+.ss-div {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.bgc-desktop {
+  width: 800px;
+  height: auto;
+}
+
+.img-contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-contain img {
+  width: 900px;
+  height: auto;
+  padding: 10px;
+}
+
+.sketch-imgs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.sketch-imgs img {
+  height: 280px;
+  width: 280px;
+}
+
+.wf-imgs {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1000px;
+  justify-content: space-evenly;
+  background-color: white;
+  stroke: black;
+}
+
+.desktop-img {
+  width: 590px;
+  height: auto;
+}
+
+.tablet-img {
+  width: 250px;
+  height: auto;
+}
+
+.mobile-img {
+  width: 100px;
+  height: auto;
+}
+
+.hf-imgs {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 900px;
+}
+
+.hf-dt {
+  width: 550px;
+  height: auto;
+}
+
+.hf-tablet {
+  width: 220px;
+  height: auto;
+}
+
+.hf-mobile {
+  width: 100px;
+  height: auto;
+}
+
+.style-guide {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.style-guide img {
+  width: 600px;
+  height: auto;
+}
+
+.subtitle {
+  padding: 20px;
+  margin-left: 20px;
+}

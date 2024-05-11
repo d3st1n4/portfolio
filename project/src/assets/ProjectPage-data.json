@@ -1,0 +1,23 @@
+[
+  {
+    "name": "AgenDo",
+    "id": "#AgenDo",
+    "features": "HTML/CSS + React + Design",
+    "image": "/images/DW (2).png",
+    "href": "/project/AgenDo"
+  },
+  {
+    "name": "Bagel Gourmet Café",
+    "id": "#BagelGC",
+    "features": "HTML/CSS + Figma + Design",
+    "image": "/images/DW (3).png",
+    "href": "/project/BagelGC"
+  },
+  {
+    "name": "BISH - Boston",
+    "id": "#BISH",
+    "features": "TypeScript + HTML/CSS + React + Design",
+    "image": "/images/DW (4).gif",
+    "href": "/project/BISH"
+  }
+]

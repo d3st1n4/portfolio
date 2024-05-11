@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700");
+@import url("https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900");
+
+#project-item {
+  display: flex;
+}
+
+.project-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  padding: 12px;
+  width: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-container img {
+  width: 400px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.card-container {
+  justify-content: center;
+}
+
+h2 {
+  font-family: "League Spartan";
+  font-size: 35px;
+  line-height: 0.5;
+  font-weight: 400;
+}
+
+.project-details p {
+  font-family: "Sometype Mono";
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.project-details {
+  line-height: 0;
+}

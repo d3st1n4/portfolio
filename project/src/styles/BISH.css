@@ -1,0 +1,67 @@
+#BISH {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.header-cont h2 {
+  font-size: 50px;
+}
+
+.bishsketch-contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bishsketch-contain img {
+  width: 400px;
+  height: auto;
+}
+
+.bishwf-contain {
+  background-color: rgb(175, 187, 202);
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.bishwf-contain img {
+  width: 900px;
+  height: auto;
+}
+
+.head-cont {
+  display: flex;
+  align-items: center;
+  margin-bottom: -30px;
+}
+
+.hifi-imgs {
+  background-color: rgb(194, 195, 196);
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.hf-imgs {
+  display: flex;
+  flex-direction: row;
+}
+
+.hf-dt {
+  width: 580px;
+  height: auto;
+}
+
+.head-cont h2 {
+  line-height: 0.8;
+}
