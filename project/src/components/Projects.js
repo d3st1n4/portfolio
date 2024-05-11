@@ -9,7 +9,7 @@ function Projects() {
     <div id="Projects">
       <div className="page-container">
         <div className="header-container">
-          <h1>Selected Projects</h1>
+          <h1 aria="selected projects">Selected Projects</h1>
         </div>
         <div className="project-item-container">
           {ProjectData.map((item, index) => (
@@ -19,6 +19,7 @@ function Projects() {
               features={item.features}
               img={item.image}
               href={item.href}
+              aria-label={`Project: ${item.name}. ${item.features}`}
             />
           ))}
         </div>

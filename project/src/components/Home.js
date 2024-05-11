@@ -31,7 +31,8 @@ function Home() {
         </div>
         <div className="text-cont">
           <h1>
-            Hello world,<br></br>I’m <span className="auto-type"></span>!
+            Hello world,<br></br>I’m{" "}
+            <span className="auto-type" aria-label="auto-typed text"></span>!
           </h1>
           <p>
             a Jamaican-American New Yorker and aspiring web developer with a
@@ -40,7 +41,7 @@ function Home() {
           </p>
         </div>
         <div className="down-btn">
-          <a href="#Projects">
+          <a href="#Projects" aria-label="scroll down to projects">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="40"

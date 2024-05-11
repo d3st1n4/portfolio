@@ -7,7 +7,11 @@ function BISH() {
       <div className="projectpg-container">
         <div className="intro-container">
           <div className="project-img">
-            <img src="/images/DW (4).gif" alt="Project Image" />
+            <img
+              src="/images/DW (4).gif"
+              alt="Project Image"
+              aria-label="BISH - Boston project image"
+            />
           </div>
           <div className="project-header">
             <div className="head-cont">
@@ -52,7 +56,10 @@ function BISH() {
               structure usage.
             </p>
             <div className="bishsketch-contain">
-              <img src="/images/projectp-sketch.jpeg" alt="design-table" />
+              <img
+                src="/images/projectp-sketch.jpeg"
+                alt="initial project structure sketch"
+              />
             </div>
             <p>
               I then went on to draft a low-fidelity wireframe of the website
@@ -63,7 +70,7 @@ function BISH() {
               <li>The landlord</li>
             </ul>
             <div className="bishwf-contain">
-              <img src="/images/bishwf.png" />
+              <img src="/images/bishwf.png" alt="BISH wireframe" />
             </div>
           </div>
           <div className="design-ideation">
@@ -79,7 +86,11 @@ function BISH() {
                 reflected in the following pictures.
               </p>
               <div className="hifi-imgs">
-                <img className="hf-dt" src="/images/BISHfinal.png" />
+                <img
+                  className="hf-dt"
+                  src="/images/BISHfinal.png"
+                  alt="BISH final website"
+                />
               </div>
             </div>
             <div className="takeaways-container">

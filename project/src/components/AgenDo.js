@@ -7,7 +7,11 @@ function AgenDo() {
       <div className="projectpg-container">
         <div className="intro-container">
           <div className="project-img">
-            <img src="/images/DW (2).png" alt="Project Image" />
+            <img
+              src="/images/DW (2).png"
+              alt="Project Image"
+              aria-label="AgenDo Project Image"
+            />
           </div>
           <div className="project-header">
             <div className="header-cont">
@@ -32,23 +36,35 @@ function AgenDo() {
             <p>
               To start off the development process, I conducted a competitive
               analysis with three websites,{" "}
-              <a href="https://www.goat.com/?utm_source=google_ads&utm_medium=cpc&utm_campaign=20931280770&utm_content=159171407033&gad_source=1&gclid=Cj0KCQiAxOauBhCaARIsAEbUSQRNNdnASTJ4g7dX90w8q6wCYHjeNdtZwlmQQW-jUNKA4qmMWG02Hd8aAm8fEALw_wcB">
+              <a
+                href="https://www.goat.com/?utm_source=google_ads&utm_medium=cpc&utm_campaign=20931280770&utm_content=159171407033&gad_source=1&gclid=Cj0KCQiAxOauBhCaARIsAEbUSQRNNdnASTJ4g7dX90w8q6wCYHjeNdtZwlmQQW-jUNKA4qmMWG02Hd8aAm8fEALw_wcB"
+                aria-label="link to GOAT website"
+              >
                 GOAT
               </a>
               ,{" "}
-              <a href="https://edstem.org/us/courses/54347/discussion/">
+              <a
+                href="https://edstem.org/us/courses/54347/discussion/"
+                aria-label="link to Ed Discussion website"
+              >
                 Ed Discussion
               </a>
-              , and <a href="https://www.asos.com/us/">ASOS</a>, to assess
-              common aggregators and their implementations. I ensured to select
-              webpages with completely different designs and functions to
-              identify the most essential elements.
+              , and{" "}
+              <a
+                href="https://www.asos.com/us/"
+                aria-label="link to ASOS website"
+              >
+                ASOS
+              </a>
+              , to assess common aggregators and their implementations. I
+              ensured to select webpages with completely different designs and
+              functions to identify the most essential elements.
             </p>
             <div className="img-border">
               <div className="img-container">
-                <img src="/images/goat.png" alt="GOAT" />
-                <img src="/images/ed.png" alt="Ed Discussion" />
-                <img src="/images/asos.png" alt="ASOS" />
+                <img src="/images/goat.png" alt="GOAT image" />
+                <img src="/images/ed.png" alt="Ed Discussion image" />
+                <img src="/images/asos.png" alt="ASOS image" />
               </div>
             </div>
             <p>

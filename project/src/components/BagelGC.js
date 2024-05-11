@@ -7,7 +7,11 @@ function BagelGC() {
       <div className="projectpg-container">
         <div className="intro-container">
           <div className="project-img">
-            <img src="/images/DW (3).png" alt="Project Image" />
+            <img
+              src="/images/DW (3).png"
+              alt="Project Image"
+              aria-label="Bagel Gourmet Café project image"
+            />
           </div>
           <div className="project-header">
             <div className="header-cont">
@@ -34,7 +38,11 @@ function BagelGC() {
             continuous webpage while maintaining its functionality.
           </p>
           <div className="ss-div">
-            <img className="bgc-desktop" src="/images/bgc.png" />
+            <img
+              className="bgc-desktop"
+              src="/images/bgc.png"
+              alt="picture of Bagel Gourmet Café desktop website view"
+            />
           </div>
           <div className="analysis-container">
             <h2>I. Finding Problems</h2>
@@ -45,7 +53,7 @@ function BagelGC() {
             <div className="img-contain">
               <img
                 src="/images/Screenshot 2024-05-07 at 12.09.46 PM.png"
-                alt="design-table"
+                alt="accessibility analysis table"
               />
             </div>
             <p>
@@ -72,9 +80,18 @@ function BagelGC() {
               pictures.
             </p>
             <div className="sketch-imgs">
-              <img src="/images/9sketch.png" />
-              <img src="/images/fullsketch.png" />
-              <img src="/images/squaresketch.png" />
+              <img
+                src="/images/9sketch.png"
+                alt="9-sketch design ideation sketch"
+              />
+              <img
+                src="/images/fullsketch.png"
+                alt="rough sketch of wireframe"
+              />
+              <img
+                src="/images/squaresketch.png"
+                alt="full-size wireframe sketch"
+              />
             </div>
             <p>
               I then transferred these initial sketches to Figma to develop the
@@ -86,17 +103,38 @@ function BagelGC() {
                 <img
                   className="desktop-img"
                   src="/images/CS1300 - Responsive Design LoFi Wireframes w_ Notes.png"
+                  alt="low-fidelity desktop wireframe"
                 />
-                <img className="tablet-img" src="/images/mockuptablet.jpg" />
-                <img className="mobile-img" src="/images/mockupmobile.png" />
+                <img
+                  className="tablet-img"
+                  src="/images/mockuptablet.jpg"
+                  alt="low-fidelity tablet wireframe"
+                />
+                <img
+                  className="mobile-img"
+                  src="/images/mockupmobile.png"
+                  alt="low-fidelity mobile wireframe"
+                />
               </div>
               <p>
                 Then, I moved on to implementing the high-fidelity wireframes.
               </p>
               <div className="hf-imgs">
-                <img className="hf-dt" src="/images/bgcdesktop.png" />
-                <img className="hf-tablet" src="/images/bgctablet.png" />
-                <img className="hf-mobile" src="/images/bgcmobile.png" />
+                <img
+                  className="hf-dt"
+                  src="/images/bgcdesktop.png"
+                  alt="high-fidelity desktop wireframe"
+                />
+                <img
+                  className="hf-tablet"
+                  src="/images/bgctablet.png"
+                  alt="high-fidelity tablet wireframe"
+                />
+                <img
+                  className="hf-mobile"
+                  src="/images/bgcmobile.png"
+                  alt="high-fidelity mobile wireframe"
+                />
               </div>
               {/* Insert GIF of webpage here */}
             </div>
@@ -109,7 +147,7 @@ function BagelGC() {
                 redesign featuring more images, this style guide ensures minimal
                 color clashing.
               </p>
-              <img src="/images/styleguide.png" />
+              <img src="/images/styleguide.png" alt="final style guide" />
             </div>
             <div className="takeaways-container">
               <h2>IV. Takeaways</h2>
