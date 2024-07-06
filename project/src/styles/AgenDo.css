@@ -11,8 +11,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  width: 60%;
-  /* margin: auto; */
+  width: 100%;
 }
 
 .project-img {
@@ -95,6 +94,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 60%;
 }
 
 .project-body p {

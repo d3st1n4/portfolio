@@ -15,7 +15,7 @@ function BISH() {
           </div>
           <div className="project-header">
             <div className="head-cont">
-              <h2>Brown Intern Summer Housing - Boston</h2>
+              <h2>BISH - Boston</h2>
               <p className="subtitle">TypeScript + HTML/CSS + Figma + Design</p>
             </div>
             <div className="caption-div">

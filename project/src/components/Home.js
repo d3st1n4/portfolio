@@ -1,11 +1,22 @@
 import React, { useEffect } from "react";
 import Typed from "typed.js";
+import Lottie from "react-lottie";
+import animationData from "../assets/downArrow.json";
 import "../styles/Home.css";
-import Projects from "../components/Projects.js";
+import Projects from "./Projects";
 
-function Home() {
+const Home = () => {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
   useEffect(() => {
-    var typed = new Typed(".auto-type", {
+    const typed = new Typed(".auto-type", {
       strings: [
         "Destiny Wilson",
         "Driven",
@@ -22,6 +33,13 @@ function Home() {
       typed.destroy();
     };
   }, []);
+
+  const scrollToProjects = () => {
+    const projectsSection = document.getElementById("Projects");
+    if (projectsSection) {
+      projectsSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <div id="DW">
@@ -40,28 +58,18 @@ function Home() {
             technology and public service.
           </p>
         </div>
-        <div className="down-btn">
-          <a href="#Projects" aria-label="scroll down to projects">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              fill="currentColor"
-              class="bi bi-chevron-down"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
-              />
-            </svg>
-          </a>
+        <div
+          className="down-btn"
+          onClick={scrollToProjects}
+          style={{ cursor: "pointer" }}
+        >
+          <Lottie options={defaultOptions} height={100} width={150} />
         </div>
       </div>
       <div className="project-div"></div>
-      <Projects id="#Projects" />
+      <Projects id="Projects" />
     </div>
   );
-}
+};
 
 export default Home;
